@@ -1,0 +1,228 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+/* NORMALIZE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    font-family:  'Poppins', sans-serif;
+
+}
+
+html {
+    font-family: 62.5%;
+}
+
+nav {
+    background-color: #349CE7;
+
+}
+
+.logo{
+    width: 280px;
+    height: 91px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 390px) {
+    .logo{
+        width: 50%;
+    }
+}
+
+.hamburger_button {
+    height: fit-content;
+}
+
+.links {
+
+    width: 821px;
+    height: 91px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links1 {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+}   
+
+.banner{
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner1{
+    width: 100%;
+    height: 100%;
+}
+
+/* /* .nosotros{
+    width: 100%;
+    height: 100%;
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.textonosotros{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 950px;
+
+
+}
+
+.imgnosotros{
+    width: 550px;
+    height: 950px;
+    flex-direction: column; 
+}  */
+
+
+/* .servicios{
+    width: 100%;
+    height: 100%;
+    background-color: #744C24;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.textoservicios {
+    width: 1100px;
+    height: 620px;
+    background-color: #323232;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    color: #ffffff;
+
+}
+
+/* .descripcion_servicios {
+    margin-top: 10px;
+} */ 
+
+/* .historia{
+    width: 100%;
+    height: 100%;
+    background-color: #744C24;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.textohistoria {
+    width: 1100px;
+    height: 620px;
+    background-color: #323232;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    color: #ffffff;
+
+}
+
+.descripcion_historia {
+    margin-top: 10px;
+} */
+
+/* .fotosgaleria{
+    width: 100%;
+    height: 100%;
+    padding: 80px 120px;
+    background-color: #744C24;
+
+}
+
+.foto_izquierda {
+    display: flex; 
+    width: 100%;
+    height: 400px;
+    justify-content: start;
+}
+
+.galeria_imagen {
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.foto_derecha {
+    display: flex; 
+    width: 100%;
+    height: 400px;
+    justify-content: end;
+} */
+
+
+/*Contacto*/
+
+/* .contacto {
+    height: 1042px;
+    background-color: #323232;
+}
+
+.cajamarron {
+    background-color: #744C24;
+    margin: 80px 120px;
+    padding: 80px;
+    border-radius: 9px;
+}
+
+@media (max-width: 990px) {
+    .texto_contacto {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+    .cajamarron {
+        margin: 80px 30px;
+        padding: 20px;
+    }
+}
+
+.h2marron{
+    align-content: flex-start;
+    color: #ffffff;
+}
+
+.lista{
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    font-size: 28px;
+    color: #ffffff;
+    list-style-position:inside
+} */

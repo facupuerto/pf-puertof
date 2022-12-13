@@ -1,0 +1,39 @@
+.contacto {
+    height: 1042px;
+    background-color: #323232;
+}
+
+.cajamarron {
+    background-color: #744C24;
+    margin: 80px 120px;
+    padding: 80px;
+    border-radius: 9px;
+}
+
+@media (max-width: 990px) {
+    .texto_contacto {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+    .cajamarron {
+        margin: 80px 30px;
+        padding: 20px;
+    }
+}
+
+.h2marron{
+    align-content: flex-start;
+    color: #ffffff;
+}
+
+.lista{
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    font-size: 28px;
+    color: #ffffff;
+    list-style-position:inside
+}
